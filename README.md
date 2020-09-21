@@ -1,5 +1,5 @@
 # Dataprivacy Bundle for Pimcore
-Add dataprivacy features (GDPR / DSGVO) to Pimcore
+Add dataprivacy features (GDPR / DSGVO) to Pimcore / CompanyFactory
 
 ## Features
 * Does support multiple domains (using Pimcore sites)
