@@ -44,9 +44,9 @@ var tarteaucitron = {
                 window.addEventListener("load", function () {
                     tarteaucitron.initEvents.loadEvent(false);
                 }, false);
-                window.addEventListener("scroll", function () {
-                    tarteaucitron.initEvents.scrollEvent();
-                }, false);
+                // window.addEventListener("scroll", function () {
+                //     tarteaucitron.initEvents.scrollEvent();
+                // }, false);
 
                 window.addEventListener("keydown", function (evt) {
                     tarteaucitron.initEvents.keydownEvent(false, evt);
@@ -61,9 +61,9 @@ var tarteaucitron = {
                 window.attachEvent("onload", function () {
                     tarteaucitron.initEvents.loadEvent(true);
                 });
-                window.attachEvent("onscroll", function () {
-                    tarteaucitron.initEvents.scrollEvent();
-                });
+                // window.attachEvent("onscroll", function () {
+                //     tarteaucitron.initEvents.scrollEvent();
+                // });
                 window.attachEvent("onkeydown", function (evt) {
                     tarteaucitron.initEvents.keydownEvent(true, evt);
 
@@ -164,33 +164,33 @@ var tarteaucitron = {
                 tarteaucitron.userInterface.jsSizing('cookie');
             }
         },
-        "scrollEvent": function () {
-            var scrollPos = window.pageYOffset || document.documentElement.scrollTop;
-            var heightPosition;
-            var tacPercentage = document.getElementById('tarteaucitronPercentage');
-            var tacAlertBig = document.getElementById('tarteaucitronAlertBig');
-
-            if (tacAlertBig && !tarteaucitron.highPrivacy) {
-                if (tacAlertBig.style.display === 'block') {
-                    heightPosition = tacAlertBig.offsetHeight + 'px';
-
-                    if (scrollPos > (screen.height * 2)) {
-                        tarteaucitron.userInterface.respondAll(true);
-                    } else if (scrollPos > (screen.height / 2)) {
-                        document.getElementById('tarteaucitronDisclaimerAlert').innerHTML = '<strong>' + tarteaucitron.lang.alertBigScroll + '</strong> ' + tarteaucitron.lang.alertBig;
-                    }
-
-                    if (tacPercentage) {
-                        if (tarteaucitron.orientation === 'top') {
-                            tacPercentage.style.top = heightPosition;
-                        } else {
-                            tacPercentage.style.bottom = heightPosition;
-                        }
-                        tacPercentage.style.width = ((100 / (screen.height * 2)) * scrollPos) + '%';
-                    }
-                }
-            }
-        },
+        // "scrollEvent": function () {
+        //     var scrollPos = window.pageYOffset || document.documentElement.scrollTop;
+        //     var heightPosition;
+        //     var tacPercentage = document.getElementById('tarteaucitronPercentage');
+        //     var tacAlertBig = document.getElementById('tarteaucitronAlertBig');
+        //
+        //     if (tacAlertBig && !tarteaucitron.highPrivacy) {
+        //         if (tacAlertBig.style.display === 'block') {
+        //             heightPosition = tacAlertBig.offsetHeight + 'px';
+        //
+        //             if (scrollPos > (screen.height * 2)) {
+        //                 tarteaucitron.userInterface.respondAll(true);
+        //             } else if (scrollPos > (screen.height / 2)) {
+        //                 document.getElementById('tarteaucitronDisclaimerAlert').innerHTML = '<strong>' + tarteaucitron.lang.alertBigScroll + '</strong> ' + tarteaucitron.lang.alertBig;
+        //             }
+        //
+        //             if (tacPercentage) {
+        //                 if (tarteaucitron.orientation === 'top') {
+        //                     tacPercentage.style.top = heightPosition;
+        //                 } else {
+        //                     tacPercentage.style.bottom = heightPosition;
+        //                 }
+        //                 tacPercentage.style.width = ((100 / (screen.height * 2)) * scrollPos) + '%';
+        //             }
+        //         }
+        //     }
+        // },
     },
     "load": function () {
         "use strict";
