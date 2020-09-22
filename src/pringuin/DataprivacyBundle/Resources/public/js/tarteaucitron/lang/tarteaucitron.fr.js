@@ -10,18 +10,18 @@ tarteaucitron.lang = {
     "alertBigClick": "En poursuivant votre navigation,",
     "alertBig": "vous acceptez l'utilisation de services tiers pouvant installer des cookies",
     
-    "alertBigPrivacy": "Ce site utilise des cookies et vous donne le contrôle sur ce que vous souhaitez activer",
+    "alertBigPrivacy": "Nous utilisons des cookies pour améliorer votre expérience en ligne. Vous pouvez trouver plus d'informations dans notre Déclaration de protection des données.",
     "alertSmall": "Gestion des services",
-    "acceptAll": "OK, tout accepter",
-    "personalize": "Personnaliser",
+    "acceptAll": "OK",
+    "personalize": "Configuration",
     "close": "Fermer",
 
-    "privacyUrl": "Politique de confidentialité",
+    "privacyUrl": "Déclaration de protection des données",
 
-    "all": "Préférences pour tous les services",
+    "all": "Préférences pour tous les services:",
 
     "info": "Protection de votre vie privée",
-    "disclaimer": "En autorisant ces services tiers, vous acceptez le dépôt et la lecture de cookies et l'utilisation de technologies de suivi nécessaires à leur bon fonctionnement.",
+    "disclaimer": "Nous ne recueillons et ne traitons vos données à des fins d'analyse et de marketing que si vous nous donnez votre accord en cliquant sur \"Autoriser\". Vous pouvez décider d'accepter ou de refuser les cookies.",
     "allow": "Autoriser",
     "deny": "Interdire",
     "noCookie": "Ce service ne dépose aucun cookie.",

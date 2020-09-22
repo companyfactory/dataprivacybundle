@@ -9,18 +9,18 @@ tarteaucitron.lang = {
     "alertBigClick": "If you continue to browse this website,",
     "alertBig": "you are allowing all third-party services",
     
-    "alertBigPrivacy": "This site uses cookies and gives you control over what you want to activate",
+    "alertBigPrivacy": "We use cookies to improve your online experience. You can find more information in our Privacy Policy.",
     "alertSmall": "Manage services",
     "personalize": "Personalize",
-    "acceptAll": "OK, accept all",
+    "acceptAll": "OK",
     "close": "Close",
 
-    "privacyUrl": "Privacy policy",
+    "privacyUrl": "Privacy Policy",
     
-    "all": "Preference for all services",
+    "all": "Preference for all services:",
 
     "info": "Protecting your privacy",
-    "disclaimer": "By allowing these third party services, you accept their cookies and the use of tracking technologies necessary for their proper functioning.",
+    "disclaimer": "We collect and process your data for analysis and marketing only if you give us your consent by clicking \"Allow\". You can decide which cookies you accept or reject.",
     "allow": "Allow",
     "deny": "Deny",
     "noCookie": "This service does not use cookie.",
