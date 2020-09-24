@@ -38,7 +38,7 @@ tarteaucitron.lang = {
     "newWindow": "(neues Fenster)",
     "allowAll": "Erlaube alle Cookies",
     "denyAll": "Verbiete alle Cookies",
-
+    "cookieDesc" : "Cookie",
     "fallback": "ist deaktiviert.",
     "ads": {
         "title": "Werbenetzwerke",

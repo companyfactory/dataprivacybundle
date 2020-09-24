@@ -1261,11 +1261,20 @@ var tarteaucitron = {
                 }
 
                 if (nbCurrent > 0) {
-                    html += tarteaucitron.lang.useCookieCurrent + ' ' + nbCurrent + ' cookie';
-                    if (nbCurrent > 1) {
-                        html += 's';
+                    if(tarteaucitron.lang.cookieDesc) {
+                        html += tarteaucitron.lang.useCookieCurrent + ' (' + nbCurrent + tarteaucitron.lang.cookieDesc;
+                        if (nbCurrent > 1) {
+                            html += 's';
+                        }
+                        html += '.)';
+                    } else {
+                        html += tarteaucitron.lang.useCookieCurrent + ' (' + nbCurrent + ' cookie';
+                        if (nbCurrent > 1) {
+                            html += 's';
+                        }
+                        html += '.)';
                     }
-                    html += '.';
+
                 } else {
                     html += tarteaucitron.lang.useNoCookie;
                 }
