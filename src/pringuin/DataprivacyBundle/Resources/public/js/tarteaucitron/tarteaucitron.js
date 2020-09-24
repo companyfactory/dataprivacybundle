@@ -739,6 +739,7 @@ var tarteaucitron = {
                     tarteaucitron.state[key] = status;
                     tarteaucitron.cookie.create(key, status);
                     tarteaucitron.userInterface.color(key, status);
+                    tarteaucitron.reloadThePage = true;
                 }
             }
         },
