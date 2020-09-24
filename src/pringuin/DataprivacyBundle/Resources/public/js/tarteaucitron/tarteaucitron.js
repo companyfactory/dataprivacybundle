@@ -1262,17 +1262,17 @@ var tarteaucitron = {
 
                 if (nbCurrent > 0) {
                     if(tarteaucitron.lang.cookieDesc) {
-                        html += tarteaucitron.lang.useCookieCurrent + ' (' + nbCurrent + tarteaucitron.lang.cookieDesc;
+                        html += tarteaucitron.lang.useCookieCurrent + ' (' + nbCurrent +' '+ tarteaucitron.lang.cookieDesc;
                         if (nbCurrent > 1) {
                             html += 's';
                         }
                         html += '.)';
                     } else {
-                        html += tarteaucitron.lang.useCookieCurrent + ' (' + nbCurrent + ' cookie';
+                        html += tarteaucitron.lang.useCookieCurrent + ' ' + nbCurrent + ' cookie';
                         if (nbCurrent > 1) {
                             html += 's';
                         }
-                        html += '.)';
+                        html += '.';
                     }
 
                 } else {
@@ -1281,11 +1281,20 @@ var tarteaucitron = {
             } else if (nb === 0) {
                 html = tarteaucitron.lang.noCookie;
             } else {
-                html += tarteaucitron.lang.useCookie + ' ' + nb + ' cookie';
-                if (nb > 1) {
-                    html += 's';
+                if(tarteaucitron.lang.cookieDesc) {
+                    html += tarteaucitron.lang.useCookie + '. (' + nb + ' '+tarteaucitron.lang.cookieDesc;
+                    if (nb > 1) {
+                        html += 's';
+                    }
+                    html += ')';
+                } else {
+                    html += tarteaucitron.lang.useCookie + '. ' + nb + ' cookie';
+                    if (nb > 1) {
+                        html += 's';
+                    }
+                    html += ')';
                 }
-                html += '.';
+
             }
 
             if (document.getElementById('tacCL' + key) !== null) {

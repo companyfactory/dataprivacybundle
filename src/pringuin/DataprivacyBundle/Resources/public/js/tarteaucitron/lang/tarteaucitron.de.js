@@ -24,7 +24,7 @@ tarteaucitron.lang = {
     "allow": "Erlauben",
     "deny": "Ablehnen",
     "noCookie": "Dieser Dienst nutzt keine 'Cookies'.",
-    "useCookie": "Dieser Dienst kann 'Cookies' verwenden",
+    "useCookie": "Dieser Dienst kann Cookies verwenden",
     "useCookieCurrent": "Dieser Dienst verwendet",
     "useNoCookie": "Dieser Dienst hat keine 'Cookies' installiert.",
     "more": "Weiter lesen",
