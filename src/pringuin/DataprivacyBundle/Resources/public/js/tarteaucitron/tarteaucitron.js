@@ -359,9 +359,11 @@ var tarteaucitron = {
                     html += '</div>';
 
                     if (tarteaucitron.parameters.privacyUrl !== "") {
+                        html += '<div class="col-12 col-md-6">';
                         html += '   <button type="button" id="tarteaucitronPrivacyUrl" class="btn btn-primary btn-block mt-3 mt-md-0" onclick="document.location = tarteaucitron.parameters.privacyUrl">';
                         html += '       ' + tarteaucitron.lang.privacyUrl;
                         html += '   </button>';
+                        html += '</div>';
                     }
 
                     //html += '   </span>';
