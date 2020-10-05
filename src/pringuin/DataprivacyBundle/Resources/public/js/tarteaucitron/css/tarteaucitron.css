@@ -9,8 +9,8 @@
 * Reset CSS
 */
 #tarteaucitronRoot div, #tarteaucitronRoot span, #tarteaucitronRoot applet, #tarteaucitronRoot object, #tarteaucitronRoot iframe, #tarteaucitronRoot h1, #tarteaucitronRoot h2, #tarteaucitronRoot h3, #tarteaucitronRoot h4, #tarteaucitronRoot h5, #tarteaucitronRoot h6, #tarteaucitronRoot p, #tarteaucitronRoot blockquote, #tarteaucitronRoot pre, #tarteaucitronRoot a, #tarteaucitronRoot abbr, #tarteaucitronRoot acronym, #tarteaucitronRoot address, #tarteaucitronRoot big, #tarteaucitronRoot cite, #tarteaucitronRoot code, #tarteaucitronRoot del, #tarteaucitronRoot dfn, #tarteaucitronRoot em, #tarteaucitronRoot img, #tarteaucitronRoot ins, #tarteaucitronRoot kbd, #tarteaucitronRoot q, #tarteaucitronRoot s, #tarteaucitronRoot samp, #tarteaucitronRoot small, #tarteaucitronRoot strike, #tarteaucitronRoot strong, #tarteaucitronRoot sub, #tarteaucitronRoot sup, #tarteaucitronRoot tt, #tarteaucitronRoot var, #tarteaucitronRoot b, #tarteaucitronRoot u, #tarteaucitronRoot i, #tarteaucitronRoot center, #tarteaucitronRoot dl, #tarteaucitronRoot dt, #tarteaucitronRoot dd, #tarteaucitronRoot ol, #tarteaucitronRoot ul, #tarteaucitronRoot li, #tarteaucitronRoot fieldset, #tarteaucitronRoot form, #tarteaucitronRoot label, #tarteaucitronRoot legend, #tarteaucitronRoot table, #tarteaucitronRoot caption, #tarteaucitronRoot tbody, #tarteaucitronRoot tfoot, #tarteaucitronRoot thead, #tarteaucitronRoot tr, #tarteaucitronRoot th, #tarteaucitronRoot td, #tarteaucitronRoot article, #tarteaucitronRoot aside, #tarteaucitronRoot canvas, #tarteaucitronRoot details, #tarteaucitronRoot embed, #tarteaucitronRoot figure, #tarteaucitronRoot figcaption, #tarteaucitronRoot footer, #tarteaucitronRoot header, #tarteaucitronRoot hgroup, #tarteaucitronRoot menu, #tarteaucitronRoot nav, #tarteaucitronRoot output, #tarteaucitronRoot ruby, #tarteaucitronRoot section, #tarteaucitronRoot summary, #tarteaucitronRoot time, #tarteaucitronRoot mark, #tarteaucitronRoot audio, #tarteaucitronRoot video {
-    margin: 0;
-    padding: 0;
+    /*margin: 0;*/
+    /*padding: 0;*/
     border: 0;
     font-size: 100%;
     font: inherit;
@@ -62,8 +62,8 @@ div#tarteaucitronServices {
 }
 
 #tarteaucitronServices::-webkit-scrollbar-thumb {
-  background-color: #ddd;
-  outline: 0px solid slategrey;
+    background-color: #ddd;
+    outline: 0px solid slategrey;
 }
 
 div#tarteaucitronServices {
@@ -118,9 +118,9 @@ div#tarteaucitronServices {
         text-align: center !important;
     }
 
-        #tarteaucitron #tarteaucitronServices .tarteaucitronLine .tarteaucitronAsk button {
-            margin-bottom: 5px;
-        }
+    #tarteaucitron #tarteaucitronServices .tarteaucitronLine .tarteaucitronAsk button {
+        margin-bottom: 5px;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -181,7 +181,7 @@ div#tarteaucitronServices {
 }
 
 #tarteaucitron .tarteaucitronH1, #tarteaucitron .tarteaucitronH2, #tarteaucitron .tarteaucitronH3, #tarteaucitron .tarteaucitronH4, #tarteaucitron .tarteaucitronH5, #tarteaucitron .tarteaucitronH6 {
-  display: block;
+    display: block;
 }
 
 .cookie-list {
@@ -201,7 +201,7 @@ div#tarteaucitronServices {
 }
 
 #tarteaucitronRoot * {
-    box-sizing: initial;
+    /*box-sizing: initial;*/
     /*color: #333;*/
     /*font-size: 14px;*/
     line-height: normal;
@@ -286,10 +286,10 @@ div#tarteaucitronServices {
 #tarteaucitron #tarteaucitronServices .tarteaucitronHidden {
     background: rgba(51, 51, 51, 0.07);
 }a.tarteaucitronSelfLink {
-    text-align: center!important;
-    display: block;
-    padding: 7px!important;
-}
+     text-align: center!important;
+     display: block;
+     padding: 7px!important;
+ }
 
 #tarteaucitron #tarteaucitronServices .tarteaucitronHidden {
     display: none;
@@ -525,9 +525,9 @@ div#tarteaucitronServices {
     display: inline-block;
     font-size: 16px!important;
     line-height: 1.2;
-    padding: 5px 10px;
+    /*padding: 5px 10px;*/
     text-decoration: none;
-    margin-left: 7px;
+    /*margin-left: 7px;*/
 }
 
 #tarteaucitronRoot .tarteaucitronDeny {
@@ -538,9 +538,9 @@ div#tarteaucitronServices {
     background: #fff;
     color: #333;
     font-size: 13px;
-    margin-bottom: 3px;
-    margin-left: 7px;
-    padding: 4px 10px;
+    /*margin-bottom: 3px;*/
+    /*margin-left: 7px;*/
+    /*padding: 4px 10px;*/
 }
 
 #tarteaucitronPercentage {
@@ -742,12 +742,12 @@ div.amazon_product {
 .tarteaucitronIsAllowed .tarteaucitronDeny {
     opacity: 0.4!important;
 }.tarteaucitronIsDenied .tarteaucitronAllow {
-    opacity: 0.4!important;
-}.tarteaucitronIsAllowed .tarteaucitronAllow {
-    opacity: 1!important;
-}.tarteaucitronIsDenied .tarteaucitronDeny {
-    opacity: 1!important;
-}
+     opacity: 0.4!important;
+ }.tarteaucitronIsAllowed .tarteaucitronAllow {
+      opacity: 1!important;
+  }.tarteaucitronIsDenied .tarteaucitronDeny {
+       opacity: 1!important;
+   }
 .tarteaucitronLine .tarteaucitronAllow, .tarteaucitronLine .tarteaucitronDeny {
     opacity: 0.4;
 }
@@ -774,9 +774,9 @@ a.tarteaucitronSelfLink {
     text-shadow: 0 0 14px white;
     text-transform: uppercase;
 }.tarteaucitronMainLine .tarteaucitronH2 {
-    font-size: 1.2em!important;
-    margin-top: 4px!important;
-}
+     font-size: 1.2em!important;
+     margin-top: 4px!important;
+ }
 
 span.tarteaucitronTitle.tarteaucitronH3 {
     margin-top: 12px!important;
