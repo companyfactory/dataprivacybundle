@@ -380,7 +380,7 @@ var tarteaucitron = {
                         html += '       ' + tarteaucitron.lang.alertBigPrivacy;
                     } else {
                         console.log(tarteaucitron.lang.alertBigClick);
-                        var output = tarteaucitron.lang.alertBigClick.replace('%s','<a href="'+tarteaucitron.parameters.privacyUrl+'">'+tarteaucitron.lang.privacyUrl+'</a>')
+                        var output = tarteaucitron.lang.alertBigClick.replace('%s','<a href="'+tarteaucitron.parameters.privacyUrl+'" target="_blank">'+tarteaucitron.lang.privacyUrl+'</a>')
 
                         html += '       ' + output + ' ' + tarteaucitron.lang.alertBig;
                     }
