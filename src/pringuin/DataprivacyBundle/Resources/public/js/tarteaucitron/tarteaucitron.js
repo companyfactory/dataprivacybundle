@@ -352,7 +352,7 @@ var tarteaucitron = {
                     html += '       ' + tarteaucitron.lang.alertBigPrivacy;
                     html += '   </span>';
                     //html += '   <span class="tarteaucitronAlertBigBtnWrapper">';
-                    html += '<div class="col-12 col-md-6 mt-3 mt-md-0">';
+                    html += '<div class="col-12 col-md-6 mt-3 mt-md-0 mb-3 mb-md-0">';
                     html += '   <button type="button" id="tarteaucitronPersonalize" class="btn btn-primary btn-block mt-3 mt-md-0" onclick="tarteaucitron.userInterface.openPanel();">';
                     html += '       ' + tarteaucitron.lang.personalize;
                     html += '   </button>';
