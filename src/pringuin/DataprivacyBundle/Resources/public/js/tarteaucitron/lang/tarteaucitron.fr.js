@@ -16,7 +16,7 @@ tarteaucitron.lang = {
     "personalize": "Personnaliser",
     "close": "Fermer",
 
-    "privacyUrl": "Déclaration de protection des données",
+    "privacyUrl": "protection des données",
 
     "all": "Préférences pour tous les services:",
 

@@ -15,7 +15,7 @@ tarteaucitron.lang = {
     "acceptAll": "Принять",
     "close": "Закрыть",
 
-    "privacyUrl": "Политика конфиденциальности",
+    "privacyUrl": "Защита данных",
     
     "all": "Преференция всем сервисам",
 
