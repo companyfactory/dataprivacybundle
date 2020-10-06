@@ -387,7 +387,7 @@ var tarteaucitron = {
                     html += '   </span>';
                     html += '</div>';
 
-                    html += '<div class="col-12 col-md-6 mt-3 mt-md-0 mb-0 mb-md-3">';
+                    html += '<div class="col-12 col-md-6 mt-3 mt-md-0 mb-3 mb-md-0">';
                     html += '   <button type="button" id="tarteaucitronCloseAlert" class="btn btn-primary btn-block" onclick="tarteaucitron.userInterface.openPanel();">';
                     html += '       ' + tarteaucitron.lang.personalize;
                     html += '   </button>';
