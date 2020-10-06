@@ -16,7 +16,6 @@ tarteaucitron.lang = {
     "close": "Close",
 
     "privacyUrl": "Privacy Policy",
-    
     "all": "Preference for all services:",
 
     "info": "Protecting your privacy",
