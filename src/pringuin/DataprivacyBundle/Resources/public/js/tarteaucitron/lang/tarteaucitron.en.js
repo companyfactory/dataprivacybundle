@@ -6,13 +6,13 @@ tarteaucitron.lang = {
     "reload": "Refresh the page",
     
     "alertBigScroll": "By continuing to scroll,",
-    "alertBigClick": "If you continue to browse this website,",
-    "alertBig": "you are allowing all third-party services",
+    "alertBigClick": "We use cookies to improve your online experience. You can find more information in our %s",
+    "alertBig": "",
     
     "alertBigPrivacy": "We use cookies to improve your online experience. You can find more information in our Privacy Policy.",
     "alertSmall": "Manage services",
     "personalize": "Personalize",
-    "acceptAll": "OK",
+    "acceptAll": "Accept",
     "close": "Close",
 
     "privacyUrl": "Privacy Policy",

@@ -9,10 +9,10 @@ tarteaucitron.lang = {
     "alertBigClick": "Continuando a navigare nel sito,",
     "alertBig": "autorizzi l’utilizzo dei cookies inviati da domini di terze parti",
     
-    "alertBigPrivacy": "Utilizziamo i cookie per migliorare la vostra esperienza online. Potete trovare maggiori informazioni nella nostra Informativa sulla privacy.",
-    "alertSmall": "Gestione dei servizi",
-    "acceptAll": "Ok",
-    "personalize": "Impostazioni",
+    "alertBigPrivacy": "Utilizziamo i cookie per migliorare la vostra esperienza online. Potete trovare maggiori informazioni nella nostra %s",
+    "alertSmall": "",
+    "acceptAll": "Personalizza",
+    "personalize": "Accettare",
     "close": "Chiudi",
 
     "privacyUrl": "Informativa sulla privacy",
